@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="b&#246;l&#252;nme veya b&#246;l&#252;nmeme"/>
+        <attribute name="authors" value="skoca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 12:54:42 &#214;S"/>
+        <attribute name="created" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTI6NDQ6MzEgw5ZTOzMwMjk="/>
+        <attribute name="edited" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTI6NTQ6NDIgw5ZTOzE7MzE0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;Say&#305; Giriniz: &quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <if expression="(say&#305;%3==0)&amp;&amp;(say&#305;%5==0)">
+                <then>
+                    <output expression="&quot;B&#246;l&#252;n&#252;yor&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;B&#246;l&#252;nm&#252;yor&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

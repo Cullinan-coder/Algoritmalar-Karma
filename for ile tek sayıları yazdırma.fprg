@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for ile tek say&#305;lar&#305; yazd&#305;rma"/>
+        <attribute name="authors" value="skoca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 12:30:00 &#214;S"/>
+        <attribute name="created" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTE6NDU6MjYgw5bDljszMTY0"/>
+        <attribute name="edited" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTI6MzA6MDAgw5ZTOzI7MzEyOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, say&#305;, toplam" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="sayac" start="1" end="50" direction="inc" step="1">
+                <assign variable="say&#305;" expression="sayac%2"/>
+                <if expression="say&#305;==0">
+                    <then/>
+                    <else>
+                        <output expression="sayac" newline="True"/>
+                        <assign variable="toplam" expression="toplam+1"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;tek say&#305;lar&#305;n adedi&quot; &amp; &quot;  &quot; &amp; toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

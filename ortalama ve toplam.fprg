@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ortalama ve toplam"/>
+        <attribute name="authors" value="skoca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 12:44:22 &#214;S"/>
+        <attribute name="created" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTI6MzY6MDAgw5ZTOzMwMjY="/>
+        <attribute name="edited" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTI6NDQ6MjIgw5ZTOzE7MzEzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, toplam, n" type="Integer" array="False" size=""/>
+            <declare name="ortalama" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="n" start="1" end="5" direction="inc" step="1">
+                <output expression="&quot;Say&#305; Giriniz:&quot;" newline="True"/>
+                <input variable="say&#305;"/>
+                <assign variable="toplam" expression="toplam + say&#305;"/>
+            </for>
+            <assign variable="ortalama" expression="toplam/5"/>
+            <output expression="&quot;girdi&#287;iniz say&#305;lar&#305;n ortalamas&#305;&quot; &amp; &quot;  &quot; &amp; ortalama" newline="True"/>
+            <output expression="&quot;Girdi&#287;iniz say&#305;lar&#305;n toplam&#305;&quot; &amp; &quot; &quot; &amp; toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

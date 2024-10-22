@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Vize ve Final Notlar&#305;na g&#246;re &#246;&#287;rencinin ge&#231;ip ge&#231;medi&#287;i"/>
+        <attribute name="authors" value="skoca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 11:00:31 &#214;&#214;"/>
+        <attribute name="created" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTA6NDQ6MTEgw5bDljszMTU2"/>
+        <attribute name="edited" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTE6MDA6MzEgw5bDljsxOzMyNTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Vize, Final, Ortalama" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vize Notu Giriniz:&quot;" newline="True"/>
+            <input variable="Vize"/>
+            <output expression="&quot;Final Notu Giriniz:&quot;" newline="True"/>
+            <input variable="Final"/>
+            <if expression="">
+                <then>
+                    <output expression="" newline="True"/>
+                </then>
+                <else>
+                    <output expression="" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

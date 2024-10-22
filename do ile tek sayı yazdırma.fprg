@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="do ile tek say&#305; yazd&#305;rma"/>
+        <attribute name="authors" value="skoca"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 11:49:54 &#214;&#214;"/>
+        <attribute name="created" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTE6MzM6MzYgw5bDljszMTYy"/>
+        <attribute name="edited" value="c2tvY2E7REVTS1RPUC1KUEFVMk9IOzIwMjQtMTAtMjI7MTE6NDk6NTQgw5bDljsxOzMyNzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <assign variable="s" expression="1"/>
+            <do expression="s&lt;=100">
+                <output expression="s" newline="True"/>
+                <assign variable="s" expression="s+2"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
